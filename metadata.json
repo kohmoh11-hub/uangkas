@@ -1,0 +1,6 @@
+{
+  "name": "Keuangan Kelas 6C MI Qudsiyyah",
+  "description": "Sistem manajemen keuangan Kelas 6C MI Qudsiyyah dengan wali kelas Rosidul Mohtaz, M.Pd. Mendukung multi-login untuk Wali Kelas dan Wali Santri untuk pencatatan uang kas dan iuran Zarkasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

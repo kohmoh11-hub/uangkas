@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-green: #0B4619;
+  --color-brand-green-hover: #072a0f;
+  --color-brand-orange: #f97316;
+  --color-brand-orange-hover: #ea580c;
+}
+
+/* Brutalist Bold Typography Theme Utilities */
+.brutalist-card {
+  background-color: white;
+  border: 3px solid #0f172a; /* slate-900 */
+  box-shadow: 4px 4px 0px 0px #0f172a;
+}
+
+.brutalist-card-green {
+  background-color: white;
+  border: 3px solid #0B4619;
+  box-shadow: 4px 4px 0px 0px #0B4619;
+}
+
+.brutalist-button {
+  background-color: #0B4619;
+  color: white;
+  border: 3px solid #0f172a;
+  box-shadow: 3px 3px 0px 0px #0f172a;
+  transition: all 0.15s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.brutalist-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px 0px #0f172a;
+}
+
+.brutalist-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #0f172a;
+}
+
+.brutalist-button-orange {
+  background-color: #f97316;
+  color: white;
+  border: 3px solid #0f172a;
+  box-shadow: 3px 3px 0px 0px #0f172a;
+  transition: all 0.15s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.brutalist-button-orange:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px 0px #0f172a;
+}
+
+.brutalist-input {
+  border: 3px solid #0f172a;
+  background-color: white;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.brutalist-input:focus {
+  outline: none;
+  border-color: #0B4619;
+  box-shadow: 3px 3px 0px 0px #0B4619;
+}
+
+.heading-bold-uppercase {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.heading-widest {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
